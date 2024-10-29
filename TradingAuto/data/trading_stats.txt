@@ -1,0 +1,1 @@
+Total Trades: 1, Winning Trades: 0, Losing Trades: 1, Win Rate: 0%, Max Consecutive Loss: 1, Current Consecutive Losses: 1

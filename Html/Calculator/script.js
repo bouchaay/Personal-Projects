@@ -5,7 +5,7 @@ const screen = document.querySelector(".screen");
 
 function init() {
     document
-        .querySelector(".calc-buttons")
+        .querySelector(".calcul-buttons")
         .addEventListener("click", function(event) {
             buttonClick(event.target.innerText);
         }

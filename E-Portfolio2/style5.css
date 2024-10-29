@@ -1,0 +1,204 @@
+/* Style de la page engineeringcourses.html */
+
+/* Style de la barre de navigation */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    background-color: #000000;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar li:hover a {
+    color: #ff0000;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f8f8f8;
+    color: #0088ff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+/* Fin du style de la barre de navigation */
+
+body {
+    background: linear-gradient(to right, #CAC531, #fffb00);
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-family: 'Viga', sans-serif;
+}
+
+h1:hover {
+    color: #ff0000;
+    transition: 0.5s;
+    transform: scale(1.15);
+}
+
+.p1 {
+    max-width: 40%;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    margin: auto;
+    display: block;
+    font-family: 'Viga', sans-serif;
+}
+
+.p2 {
+    text-align: left;
+    margin-left: 20%;
+    font-size: 1em;
+    color: black;
+    max-width: 60%;
+    margin: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p3 {
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    max-width: 60%;
+    margin: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    border: #f8f8f8;
+}
+
+img:hover {
+    opacity: 0.5;
+    border: #0088ff;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+h2 {
+    /* position un peu a gauche */
+    text-align: center;
+    font-size: 2.2em;
+    color: black;
+    font-family: 'Viga', sans-serif;
+}
+
+h2:hover {
+    color: #0088ff;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Viga', sans-serif;
+}
+
+h3:hover {
+    color: #00d32a;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+p5 {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot {
+    position: relative;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  

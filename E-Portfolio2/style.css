@@ -1,0 +1,200 @@
+/* Style de la page d'accueil */
+
+/* Style de la barre de navigation */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    background-color: #000000;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar li:hover a {
+    color: #ff0000;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f8f8f8;
+    color: #0088ff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+/* Fin du style de la barre de navigation */
+
+body {
+    background: linear-gradient(to right, #CAC531, #fffb00);
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+video {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    border : 1px solid black;
+    border-radius: 10px;
+    /* centrer la video */
+    margin: auto;
+    display: block;
+}
+
+/* Style de mon image */
+img {
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+    border : 1px solid black;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    /* centrer l'image */
+    margin: auto;
+    display: block;
+}
+
+img:hover {
+    border : 1px solid #007bff;
+    opacity: 0.5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-family: 'Viga', sans-serif;
+}
+
+h1:hover {
+  color: #ff0000;
+  transition: 0.5s;
+  transform: scale(1.15);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2em;
+    color: black;
+    font-family: 'Viga', sans-serif;
+}
+
+h2:hover {
+  color: #0088ff;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+
+.p2, .p3, .p4 {
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    max-width: 60%;
+    margin: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p1 {
+    max-width: 20%;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    margin: auto;
+    display: block;
+    font-family: 'Viga', sans-serif;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+/* Téléchargement du CV */
+.download-link {
+    /* centrer le bouton */
+    margin-left: 42.75%;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 24px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  a.download-link:hover {
+    background-color: #bcbd54;
+    color: #fff;
+    text-decoration: none;
+    border: 0.5px solid #000000;
+    transform: rotate(3deg);
+    transition: all 0.5s ease;
+  }
+  
+z
