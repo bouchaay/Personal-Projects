@@ -4,7 +4,7 @@ import MetaTrader5 as mt5
 import meta_settings as ms
 from market import *
 from tracking_order import *
-from strategies import *
+from sl_strategies import *
 import threading
 
 def get_current_price(symbol, ordre):

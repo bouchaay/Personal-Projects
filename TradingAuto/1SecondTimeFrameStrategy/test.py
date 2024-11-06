@@ -30,9 +30,9 @@ ema240_period = 240
 ticks_queue = deque(maxlen=ema240_period)  # Garder une taille max pour le calcul de l'EMA 200
 
 # Paramètres de la gestion de l'argent
-pips = 3 # Pips pour le TP et SL
+pips = 2 # Pips pour le TP et SL
 initial_lot = 0.05 # Taille initiale du lot
-lot_multiplicator = 2 # Multiplicateur de lot en cas de perte
+lot_multiplicator = 1 # Multiplicateur de lot en cas de perte
 
 # Paramètres de la stratégie
 ratio_tp = 1.2 # Ratio de profit (Profit = pips x ratio_tp)
